@@ -1,0 +1,209 @@
+.navbar{
+    background-color: #ecc9dd;
+    height: auto;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    color: black; /* no toma el color */
+    font-size: 50px;
+    animation-name: colorear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes colorear {
+    0%{color: #ecc9dd;}
+    15%{color: #b5b5b5;}
+    30%{color: #8c8c8c;}
+    45%{color: #666666;}
+    60%{color: #515151;}
+    80%{color: #3c3c3c;}
+    100%{color: black;}
+}
+.navbar-nav a{
+    color: black !important; /* rever el important */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.navbar-nav a:hover{
+    color: #3c3c3c !important; /* rever el important */
+}
+.navbar-link:active{
+    font-weight: bold !important; /* rever el important */
+}
+.portada{
+    background-image: url(img/fotoinicioo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+.row{
+    height: 100vh;
+}
+.left1{
+    background-color: white;
+    padding: 130px;
+    padding-top: 200px;
+}
+.right1{
+    background-image: url(img/HaileyBieber.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.right1 img{
+    width: 90%;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+}
+
+
+.left2{
+    background-image: url(img/prada.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.left2 img{
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+}
+.right2{
+    background-color: white;
+    padding: 130px;
+    padding-top: 200px;
+}
+
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+h4{
+    font-family: 'Anybody', cursive;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #ecc9dd;
+    height: auto;
+}
+.column{
+    padding: 30px;
+}
+h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;  
+    text-align: center;
+}
+footer nav{   
+    text-align: center;
+}
+footer nav a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+footer nav a:hover{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+
+.fondo{
+    margin: 50px;
+}
+label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+input{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .navbar-brand{
+        font-size: 35px;
+    }
+    .navbar-nav a{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .portada{
+        height: 50vh;
+    }
+    .row{
+        height: 50vh;
+    }
+    .left1{
+        padding: 20px;
+    }
+    .right1{
+        display: none;
+    }
+    .right2{
+        padding: 20px;
+    }
+    .left2{
+        display: none;
+    }
+    h5{
+        font-size: 25px;
+    }
+    footer nav a{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;;
+    }
+    p{
+        font-size: 15px;
+    }
+    .portada{
+        height: 50vh;
+    }
+    .row{
+        height: 70vh;
+    }
+    .left1{
+        padding: 30px;
+        padding-top: 100px;
+    }
+    .right2{
+        padding: 30px;
+        padding-top: 100px;
+    }
+}    
